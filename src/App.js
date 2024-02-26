@@ -122,7 +122,8 @@ function App() {
       <button onClick={()=>{누른제목변경(0)}}>버튼1</button>
       <button onClick={()=>{누른제목변경(1)}}>버튼2</button>
       <button onClick={()=>{누른제목변경(2)}}>버튼3</button>
-      {/* 제목={글제목}
+      {/*
+        제목={글제목}
         props 상위컴포넌트에서 하위로 데이터 전달
 
         JSX문법
